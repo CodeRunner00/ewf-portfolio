@@ -7,12 +7,16 @@ const HeadingWrapper = styled.div`
  background-color: grey;
  height: 50px;
  margin-top: 0;
+
 `;
 
 const Header = () => (
 <HeadingWrapper>
 
-      <Link to="/">Home</Link>
+      <Link className="link" to="/">Github</Link>
+      <Link className="link" to="/portfolio">Portfolio</Link>
+      <Link className="link" to="/">Home</Link>
+
 
 </HeadingWrapper>
 );
